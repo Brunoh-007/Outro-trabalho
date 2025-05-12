@@ -1,0 +1,11 @@
+body {display: flex;
+justify-content: center;}
+
+.pai {display:inline grid; gap: 5px; grid-template-columns: [first] 100px [line2] 100px [line3] 100px [col4-start] 100px [five] 100px [end];
+}
+
+
+.item1 {background-color: #EB2340;width: 150px; height: 150px;}
+.item2 {background-color: #2D23EB;width: 150px; height: 150px;}
+.item3 {background-color: #4CEA14;width: 150px; height: 150px;}
+.item4 {background-color: #EBDF23;width: 150px; height: 150px;}
