@@ -3,23 +3,19 @@ body{background-color: #cdcfb7;
 
 header { background-color: #2672da;
  display: flex;
-
+ flex-wrap: wrap;
  justify-content: space-between;
+ align-content: center;
+
 }
+ button {border: none;
+background-color: #2672da;
+cursor: pointer;}
 
-.cima {display: flex;
-justify-content: center;}
 
-
-.menu {
-  display: flex;
-  justify-content: end;
+.menu {display: flex;
   gap: 10px;
-
-
-
-
-
+ 
   }
 .projetos { display: grid;
 grid-template-columns: repeat(3, 1fr);
