@@ -1,0 +1,35 @@
+body{background-color: #cdcfb7;
+}
+
+header { background-color: #2672da;
+ display: flex;
+
+ justify-content: space-between;
+}
+
+.cima {display: flex;
+justify-content: center;}
+
+
+.menu {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+
+
+
+
+
+  }
+.projetos { display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 100px);
+gap: 20px;
+justify-content: center;
+
+}
+
+
+.item {background-color: azure
+    ;}
+    
